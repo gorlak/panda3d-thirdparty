@@ -1,0 +1,72 @@
+# output
+freetype/include
+freetype/lib
+
+jpeg/include
+jpeg/lib
+
+png/include
+png/lib
+
+openal/bin
+openal/include
+openal/lib
+
+openssl/dist/MINFO
+openssl/dist/Makefile.bak
+openssl/dist/Makefile
+openssl/dist/crypto/buildinf.h
+openssl/dist/crypto/opensslconf.h.bak
+openssl/dist/crypto/opensslconf.h
+openssl/dist/inc32/
+openssl/dist/ms/libeay32.def
+openssl/dist/ms/nt.mak
+openssl/dist/ms/ntdll.mak
+openssl/dist/ms/ssleay32.def
+openssl/dist/ms/uptable.asm
+openssl/dist/ms/version32.rc
+openssl/dist/out32/
+openssl/dist/tmp32/
+openssl/include
+openssl/lib
+
+squish/include
+squish/lib
+
+tiff/dist/libtiff/tif_config.h
+tiff/include
+tiff/lib
+
+zlib/include
+zlib/lib
+
+# config headers
+jpeg/dist/jconfig.h
+
+# premake
+/*.vcproj
+/*.vcxproj
+/*.sln
+obj/
+
+# visual studio files
+*.ncb
+*.suo
+*.vcproj.*
+*.vcxproj.*
+*.obj
+*.idb
+*.pdb
+*.sdf
+*.opensdf
+ipch/
+
+# vim editor
+*.swp
+
+# emacs editor
+.#*
+*~
+
+# sublime text editor
+*.sublime-workspace
